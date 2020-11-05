@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Merchant_OTP">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+        <com.goodiebag.pinview.Pinview
+
+            android:id="@+id/ed_otp_code"
+            app:pinBackground="@drawable/backedittextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:pinWidth="40sp"
+            app:pinHeight="40sp"
+            app:pinLength="5"
+            app:textSize="16dp"
+            style="@style/TextViewBoldNormal"
+            app:cursorVisible="false"
+            app:forceKeyboard="true"
+            app:hint="0"
+            app:inputType="number"/>
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:text="Wait for the code I sent you..."
+            style="@style/TextViewSemiBoldBlack"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="I sent you a code, it will be detected automatically but if it is not detected you can put it below manually as well"
+            style="@style/TextViewRegularBlack"
+            android:textColor="@color/Gray" />
+
+
+
+
+        <Button
+            android:id="@+id/bt_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:layout_margin="30sp"
+            android:background="@drawable/bg_login"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

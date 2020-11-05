@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:elevation="3dp"
+        app:cardCornerRadius="3dp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:textColor="@color/black"
+                    style="@style/TextViewSemiBoldBlack"
+                    android:textSize="14sp"
+                    android:text="Order#5789"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="end"
+                    android:textColor="@color/black"
+                    style="@style/TextViewSemiBoldBlack"
+                    android:textSize="14sp"
+                    android:text="@string/_200"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:textColor="@color/black"
+                    style="@style/TextViewRegularNormal"
+                    android:textSize="13sp"
+                    android:text="1 item"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:layout_marginRight="10sp"
+                    android:textColor="@color/black"
+                   android:gravity="end"
+                    style="@style/TextViewRegularNormal"
+                    android:textSize="13sp"
+                    android:text="Toaday ,10:23 AM"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="10sp"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:src="@drawable/ic_sphere"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    style="@style/TextViewRegularNormal"
+                    android:textSize="13sp"
+                    android:text="Pending"/>
+
+                <TextView
+                   android:layout_weight="0.1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:layout_gravity="center"
+                    android:padding="3dp"
+                    android:drawableRight="@drawable/ic_forward"
+                    android:background="@drawable/bg_tv_details"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    style="@style/TextViewSemiBoldNormal"
+                    android:textSize="13sp"
+                    android:text="Toaday ,10:23 AM"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

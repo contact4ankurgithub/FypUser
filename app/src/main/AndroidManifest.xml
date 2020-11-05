@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fyp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Product_List" />
+        <activity android:name=".User_Login" />
+        <activity android:name=".Orders" />
+        <activity android:name=".Barcode_Scanner" />
+        <activity android:name=".Add_Product" />
+        <activity android:name=".MerchantDashboard" />
+        <activity android:name=".Shop_List" />
+        <activity android:name=".Order" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Merchant_Signup" />
+        <activity android:name=".UserOrMerchant" />
+        <activity android:name=".Merchant_OTP" />
+        <activity android:name=".User_Dashboard" />
+        <activity android:name=".User_Signup" />
+        <activity android:name=".Merchat_Login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

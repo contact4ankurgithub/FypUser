@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">FYP</string>
+    <string name="login_into_your_account">Login into your\n account</string>
+    <string name="do_not_have_an_account">Don\'t have an account? <font color='#d74e55'>Sign up</font></string>
+    <string name="creat_your_account">Create your\n account</string>
+    <string name="allready_an_account">Already an account? <font color='#d74e55'>Log in</font></string>
+    <string name="By_Clicking">By clicking sing up you agree to the our\n Terms and Conditions</string>
+    <string name="we_will_send_you_otp"> We will send you an <font color='#d74e55'> One Time Password</font>\n on this mobile number</string>
+    <string name="bank_details"> Bank Details <font color='#d74e55'>(Optional)</font></string>
+    <string name="log_in">Log in</string>
+    <string name="add_product">Add Product</string>
+    <string name="_100">100</string>
+    <string name="order_in_process">Order In Process</string>
+    <string name="_10">10</string>
+    <string name="cancle_order">Cancel Order</string>
+    <string name="_20">20</string>
+    <string name="complete">Complete</string>
+    <string name="_200">₹ 200</string>
+    <string name="product_code">Product Code</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_quantity">Product Quantity</string>
+    <string name="price_with_discount">Price</string>
+    <string name="please_add_your_gst_certificate_aadhar_card_pan_card_driving_licence_passport">Please Add Your GST Certificate (If Applicable) /Aadhar Card/Pan Card/Driving Licence/Passport</string>
+    <string name="Discount">Discount</string>
+    <string name="scan" />
+    <string name="setting">Settings</string>
+    <string name="edit">Edit</string>
+    <string name="notification">Notification</string>
+    <string name="account_holder_name">Account Holder Name</string>
+    <string name="account_number">Account Number</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="branch_name">Branch Name</string>
+    <string name="ifsc">IFSC</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="password">Password</string>
+    <string name="treanding_product">Treanding Product</string>
+    <string name="search_product_by_nearest_shop">Search Product By Nearest Shop</string>
+    <string name="store_name">Store Name: </string>
+    <string name="shop_address">Shop Address: </string>
+    <string name="category">CATEGORY</string>
+    <string name="latest_offers">LATEST OFFERS</string>
+    <string name="top_brand_spotlight">TOP BRAND SPOTLIGHT</string>
+
+
+</resources>

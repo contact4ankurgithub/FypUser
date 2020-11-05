@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/lr_item_offers"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80sp"
+        android:layout_height="70dp"
+        app:cardCornerRadius="3dp"
+        android:elevation="3dp">
+
+        <ImageView
+            android:id="@+id/img_offer_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/new_offer"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/tv_offers_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        android:text="20% off"/>
+
+</LinearLayout>

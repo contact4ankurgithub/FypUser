@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fypbgptrn"
+    tools:context=".Merchant_Signup">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_back"
+                    android:layout_width="18sp"
+                    android:layout_height="18sp"
+                    android:layout_margin="20sp"
+                    android:src="@drawable/ic_fypback" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        style="@style/TextViewBoldNormal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:visibility="gone"
+                        android:text="@string/creat_your_account"
+                        android:textColor="@color/app_color"
+                        android:textSize="25sp" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/iv_shop_img"
+                            android:layout_width="130sp"
+                            android:layout_height="110sp"
+                            android:layout_margin="8dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_store"
+                            android:layout_gravity="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_margin="5dp"
+                            style="@style/TextViewRegularBlack"
+                            android:text="Add Store Image"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/bg_email"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+
+
+                            <EditText
+                                android:id="@+id/ed_merchant_name"
+                                style="@style/TextViewSemiBoldNormal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/bg_edit_search"
+                                android:hint="Business Name"
+                                android:inputType="textPersonName"
+                                android:padding="3dp"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/bg_email"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+
+
+                            <EditText
+                                android:id="@+id/ed_businessname"
+                                style="@style/TextViewSemiBoldNormal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/bg_edit_search"
+                                android:hint="Business Name"
+                                android:inputType="textPersonName"
+                                android:padding="3dp"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/bg_email"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+
+
+                            <EditText
+                                android:id="@+id/ed_gstin"
+                                style="@style/TextViewSemiBoldNormal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/bg_edit_search"
+                                android:hint="GSTIN "
+                                android:inputType="text"
+                                android:padding="3dp"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/bg_email"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+
+
+                            <EditText
+                                android:id="@+id/ed_mobile"
+                                style="@style/TextViewSemiBoldNormal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/bg_edit_search"
+                                android:hint="Mobile No."
+                                android:inputType="number"
+                                android:maxLength="10"
+                                android:padding="3dp"
+                                android:textSize="16sp" />
+
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/bg_email"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+
+
+
+                            <EditText
+                                android:id="@+id/ed_password"
+                                style="@style/TextViewSemiBoldNormal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/bg_edit_search"
+                                android:hint="Password"
+                                android:inputType="textPassword"
+                                android:maxLength="10"
+                                android:padding="3dp"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/bg_email"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+
+
+                            <EditText
+                                android:id="@+id/ed_address"
+                                style="@style/TextViewSemiBoldNormal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/bg_edit_search"
+                                android:hint="Address"
+                                android:inputType="textPostalAddress"
+                                android:padding="3dp"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="13sp"
+                        style="@style/TextViewRegularNormal"
+                        android:text="@string/bank_details"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_gst_certificate"
+                            android:layout_width="100sp"
+                            android:layout_height="90sp"
+                            android:layout_margin="8dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_add_image"
+                            android:layout_gravity="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            style="@style/TextViewRegularNormal"
+                            android:text="@string/please_add_your_gst_certificate_aadhar_card_pan_card_driving_licence_passport"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:background="@drawable/bg_email"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:id="@+id/ed_holdername"
+                            style="@style/TextViewSemiBoldNormal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/bg_edit_search"
+                            android:hint="@string/account_holder_name"
+                            android:padding="3dp"
+                            android:inputType="textPersonName"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:background="@drawable/bg_email"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:id="@+id/ed_acc_no"
+                            style="@style/TextViewSemiBoldNormal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/bg_edit_search"
+                            android:hint="@string/account_number"
+                            android:padding="3dp"
+                            android:inputType="number"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:background="@drawable/bg_email"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:id="@+id/ed_bankname"
+                            style="@style/TextViewSemiBoldNormal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/bg_edit_search"
+                            android:hint="@string/bank_name"
+                            android:inputType="text"
+                            android:padding="3dp"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:background="@drawable/bg_email"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:id="@+id/ed_brancename"
+                            style="@style/TextViewSemiBoldNormal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/bg_edit_search"
+                            android:hint="@string/branch_name"
+                            android:inputType="text"
+                            android:padding="3dp"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:background="@drawable/bg_email"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:id="@+id/ed_ifsccode"
+                            style="@style/TextViewSemiBoldNormal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/bg_edit_search"
+                            android:hint="@string/ifsc"
+                            android:inputType="text"
+                            android:padding="3dp"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:background="@drawable/bg_email"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:id="@+id/ed_city"
+                            style="@style/TextViewSemiBoldNormal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/bg_edit_search"
+                            android:hint="@string/city"
+                            android:inputType="text"
+                            android:padding="3dp"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:background="@drawable/bg_email"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:id="@+id/ed_state"
+                            style="@style/TextViewSemiBoldNormal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/bg_edit_search"
+                            android:hint="@string/state"
+                            android:inputType="text"
+                            android:padding="3dp"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                    <Button
+                        android:id="@+id/bt_signup"
+                        style="@style/TextViewSemiBoldBlack"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="18sp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/bg_login"
+                        android:text="Sign up"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/By_Clicking"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        style="@style/TextViewRegularNormal"
+                        android:layout_marginTop="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_login"
+                style="@style/TextViewSemiBoldNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30sp"
+                android:gravity="center"
+                android:text="@string/allready_an_account"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

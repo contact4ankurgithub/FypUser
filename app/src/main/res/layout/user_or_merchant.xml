@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fypbgptrn"
+    tools:context=".UserOrMerchant">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="15sp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/bt_login_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Goto User Dashboard"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:textSize="18dp"
+            android:background="@drawable/bg_login"
+            style="@style/TextViewSemiBoldBlack" />
+
+        <Button
+            android:id="@+id/bt_merchant_login"
+            style="@style/TextViewSemiBoldBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_login"
+            android:gravity="center"
+            android:text="Goto Vendor Dashboard"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
